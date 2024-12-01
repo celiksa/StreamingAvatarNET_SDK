@@ -1,0 +1,32 @@
+<Project>
+  <PropertyGroup>
+    <VersionPrefix>2.0.8</VersionPrefix>
+    <Authors>HeyGen</Authors>
+    <Company>HeyGen</Company>
+    <Product>HeyGen Streaming Avatar SDK</Product>
+    <Copyright>Copyright © HeyGen 2024</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Features>strict</Features>
+
+    <!-- Source Link -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <!-- Package -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/HeyGen-Official/StreamingAvatarSDK</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HeyGen-Official/StreamingAvatarSDK.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/HeyGen-Official/StreamingAvatarSDK/releases</PackageReleaseNotes>
+    <PackageTags>heygen;avatar;streaming;realtime;voice-chat;ai</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>
